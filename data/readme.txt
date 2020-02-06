@@ -1,0 +1,1 @@
+This directory is supposed to hold all data(such as csv, etc)/database(if using SQLite) files. In addition, pictures also go here.

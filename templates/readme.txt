@@ -1,0 +1,1 @@
+This directory is supposed to hold all html templates, usually html files that are dynamic(have Jinja2 templating) go here
