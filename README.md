@@ -1,5 +1,5 @@
 # minimalist_flask_app
-This repository mimics the Flask setup I was taught to use, and I think is the most clear way of learning Flask. The bare minimum to run this Flask app would be just to have `app.py` and run the commands below. The folders exist just for reference.
+This repository mimics the Flask setup I was taught to use, and I think is the most clear way of learning Flask. The bare minimum to run this Flask app would be just to have `app.py` and run the commands below. The folders exist just for reference. This Flask app does not require exporting environmental variables, and only needs pip3 and python3-venv. 
 
 # Setup
 I was taught to use virtual environments so that we can install Flask to these environments and not worry about
@@ -10,4 +10,4 @@ updating files and having incompatibility issues. Assuming python3 is installed:
 * `. ~/venv/bin/activate` activates the virtual environment
 * `pip install wheel` installs wheel
 * `pip install Flask` installs Flask. You would pip install any other required packages: such as requests, etc
-* Now, you can go into this cloned repository, and run `python app.py` which will run the app on the local server and you can see the debugging. `python3 app.py` may be needed if the first command doesnt work.
+* Now, you can go into this cloned repository, and run `python app.py` which will run the app on the local server and you can see the debugging. `python3 app.py` may be needed if the first command doesnt work. These commands must be used to run the Flask app, instead of `flask run` which would require environmental variables.
