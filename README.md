@@ -1,5 +1,5 @@
 # minimalist_flask_app
-This repository mimics the Flask setup I was taught to use, and I think is the most clear way of learning Flask
+This repository mimics the Flask setup I was taught to use, and I think is the most clear way of learning Flask. The bare minimum to run this Flask app would be just to have `app.py` and run the commands below. The folders exist just for reference.
 
 # Setup
 I was taught to use virtual environments so that we can install Flask to these environments and not worry about
